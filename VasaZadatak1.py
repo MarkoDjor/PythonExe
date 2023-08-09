@@ -16,6 +16,34 @@ poslednja_tri_sova=zivotinja[-3:]
 
 print(poslednja_tri_sova)
 
+zivotinja="narval"
+
+sva_slova=zivotinja.upper()
+
+print(sva_slova)
+
+print(zivotinja.upper)
+
+zivotinja=zivotinja.upper()
+
+lena= len(zivotinja)
+
+print(f'duzina varijable {zivotinja} je {lena}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
