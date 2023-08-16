@@ -6,7 +6,7 @@ Purpose: Play Shostakovich!
 """
 
 import argparse
-import os
+import sys
 import random as rnd
 
 
