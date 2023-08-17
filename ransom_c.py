@@ -9,7 +9,6 @@ import argparse
 import sys
 import random as rnd
 
-
 # --------------------------------------------------
 def get_args():
     """Get command-line arguments"""
