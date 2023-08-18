@@ -1,7 +1,6 @@
-def square(x):
-    return x**2
-
 def main():
+
+    square = lambda x:x**2
 
     print( square(3) )
 
