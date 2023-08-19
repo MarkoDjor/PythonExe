@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 word = 'Petra'
 
 word1 = 'Vasa'
@@ -25,6 +27,7 @@ print(sva_slova)
 print(zivotinja.upper)
 
 zivotinja=zivotinja.upper()
+
 
 lena= len(zivotinja)
 

@@ -1,4 +1,10 @@
 #lista = ["salad", "chips","potatoes","pizza", "tomatoes", "cake", "soda", "water"]
+import cython
+import numpy as np
+
+vektor = np.arange(1,11)
+
+print(vektor)
 
 lista = ["cake", "salad"]
 if len(lista) == 0:
