@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-word = 'poocim'
+word = "mama"
 
 word = 'Petra'
 
@@ -33,27 +33,3 @@ zivotinja=zivotinja.upper()
 lena= len(zivotinja)
 
 print(f'duzina varijable {zivotinja} je {lena}')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
