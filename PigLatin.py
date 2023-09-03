@@ -11,3 +11,23 @@
 #Trazite korisniku da unese neku rec na engleskom.
 #Ako rec pocinje sa samoglasnikom ("a","e","i","o","u"), dodaj "way" na kraju reci. Tako da npr. "air" postane "airway", a "eat" postane "eatway". Ako rec pocinje sa bilo kojim drugim slovom, onda uzmemo prvo slovo, stavimo ga na kraj reci i onda dodamo "ay". Tako da npr. "python" postane "ythonpay", a "computer" postane “omputercay.”
 
+rec=input("unesi rec:")
+
+list(rec)
+
+recl=()
+
+if  rec[0] in ["a","e", "i","u","o"]:
+
+    recl= rec + ("way")
+
+
+else:
+
+    recl=  rec[1:] + rec[0] + "ay"
+
+    #recl=rec +
+
+print(recl)
+
+

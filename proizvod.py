@@ -1,11 +1,9 @@
 #napisi program koji ce da napravi proizvod elemenata u listi
 
-lista = [ 5 , 1 , 2 , 8 ]
-
-proizvod = 1
+proizvod = 0
 
 for broj in lista:
 
-        proizvod = proizvod * broj
+        suma = suma + broj
 
-print(proizvod)
+print(suma)
