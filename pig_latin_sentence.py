@@ -1,41 +1,17 @@
 #Korisnik treba na pocetku da zada recenicu na engleskom. Radi jednostavnosti, ta recenica se sastoji samo od reci, odnosno ne pocinje velikim slovom i ne zavrsava se tackom npr.: "it is nice weather today". Svaku od reci u recenici promeniti u skladu sa pig latin pravilima i tako promenjenu recenicu odstampati. Recenica iz primera treba da posle promene postane:
-"itway isway icenay eatherway odaytay"
-
-def pig(rec):
-
-    if rec[0] in "aeiou":
-
-        rec += "way"
-
-    else:
-
-        rec = rec[1:] + rec[0] + "ay"
-
-    return rec
+#"itway isway icenay eatherway odaytay"
 
 
-def pig_sentence(recenica):
+recenica=input("napisi recenicu:")
 
-    recenical = recenica.split()
+recenica.split()
 
-    recenicaln = list()
+reclasa=[]
 
-    for rec in recenical:
+for rec in recenica:
 
-        recenicaln.append(pig(rec))
+     recenica[0] in ["a","e","i","o","u"]
 
-    recenican = " ".join(recenicaln)
+     reclasa = recenica + ("way")
 
-    return recenican
-
-
-def main():
-
-    recenica = input("Unesi recenicu na Engleskom:")
-
-    print( pig_sentence(recenica) )
-
-
-if __name__ == "__main__":
-
-    main()
+print(reclasa)
