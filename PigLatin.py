@@ -9,5 +9,29 @@
 # and “computer” becomes “omputercay.”
 
 #Trazite korisniku da unese neku rec na engleskom.
-#Ako rec pocinje sa samoglasnikom ("a","e","i","o","u"), dodaj "way" na kraju reci. Tako da npr. "air" postane "airway", a "eat" postane "eatway". Ako rec pocinje sa bilo kojim drugim slovom, onda uzmemo prvo slovo, stavimo ga na kraj reci i onda dodamo "ay". Tako da npr. "python" postane "ythonpay", a "computer" postane “omputercay.”
+#Ako rec pocinje sa samoglasnikom ("a","e","i","o","u"), dodaj "way" na kraju reci. Tako da npr. "air" postane "airway", a "eat" postane "eatway". Ako rec pocinje sa bilo kojim drugim slovom, onda uzmemo prvo slovo, stavimo ga na kraj reci i onda dodamo "ay". Tako da npr. "python" postane "ythonpay", a "computer" postane omputercay.
+
+def pig(rec):
+
+    if rec[0] in "aeiou":
+
+        rec += "way"
+
+    else:
+
+        rec = rec[1:] + rec[0] + "ay"
+
+    return rec
+
+def main():
+
+    rec = input("Unesi neku rec na Engleskom:")
+
+    print( pig(rec) )
+
+if __name__ == "__main__":
+
+    main()
+
+
 
