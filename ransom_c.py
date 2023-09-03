@@ -8,6 +8,7 @@ Purpose: Play Shostakovich!
 import argparse
 import sys
 import random as rnd
+import os
 
 # --------------------------------------------------
 def get_args():
