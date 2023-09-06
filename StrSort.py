@@ -6,14 +6,12 @@
 
 #Treba da se napise program za koji korisnik treba da unese string, koji se zatim #sortira. sortirani string treba da se odstampa.
 
-def strsort(rec):
+#lista.sort()
 
-    recl = list( rec )
+tekst = "cba"
 
-    recl.sort()
+tekstnovi=list(tekst)
 
-    return "".join( recl  )
+tekstnovi.sort()
 
-rec = input("Unesi rec koja treba da se sortira:")
-
-print( strsort(rec) )
+print(tekstnovi)
