@@ -2,9 +2,9 @@
 
 #10-20+30-40+50-60.
 
-lista = [ 10, 20, 30, 40, 50, 60, 50  ]
+lista =list(range(100))
 
-istal=sum(lista[0::2]) - sum(lista[1::2])
+istal=sum(lista[0::2]) - sum(lista[)
 
 
 print(istal)
