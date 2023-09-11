@@ -17,3 +17,5 @@ for rec in recenical:
         reclasa.append(rec[1:] + rec[0] + "ay")
 
 print(" ".join(reclasa))
+
+print(f'U teks "{rec[0]}".')
