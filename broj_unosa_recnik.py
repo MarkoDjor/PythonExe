@@ -27,4 +27,8 @@ ghostlyd = {'A': 'A is for Alfred, poisoned to death.',
 'Y': 'Y is for Yoeman, too fat by a piece,',
 'Z': 'Z is for Zora, smothered by a fleece.'}
 
+broj_unosa = len(ghostlyd)
+
+print("Broj unosa u recniku ghostlyd je:", broj_unosa)
+
 

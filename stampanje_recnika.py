@@ -33,3 +33,5 @@ ghostlyd = {'A': 'A is for Alfred, poisoned to death.',
 'Y': 'Y is for Yoeman, too fat by a piece,',
 'Z': 'Z is for Zora, smothered by a fleece.'}
 
+for kljuc, vrednost in ghostlyd.items():
+    print(f'kljuc: "{kljuc}" , vrednost: "{vrednost}"')
