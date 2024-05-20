@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 vremes = float(input( "How long did it take for a run?:"))
 
 n = 0

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from scipy.stats import qmc
 import matplotlib.pyplot as plt
 import numpy as np
